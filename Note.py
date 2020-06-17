@@ -5,10 +5,9 @@ class Note:
         self.code_cours = code_cours
         self.note = note
         
-    def setNumEtdiant(self, num_etudiant):
         self.code = num_etudiant
     
-    def getNumEtdiant(self):
+    def getNumEtudiant(self):
         return self.num_etudiant
     
     def setCodeCours(self, code_cours):
