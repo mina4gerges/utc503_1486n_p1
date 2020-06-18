@@ -6,27 +6,26 @@ class Etudiant:
         self.nom = nom
         self.niveau = niveau
         
-    def setNumEtudiant(self, num):
+    def set_num_etudiant(self, num):
         self.num = num
     
-    def getNumEtudiant(self):
+    def get_num_etudiant(self):
         return self.num
     
-    def setNomEtudiant(self, nom):
+    def set_nom_etudiant(self, nom):
         self.nom = nom
     
-    def getNomEtudiant(self):
+    def get_nom_etudiant(self):
         return self.nom
     
-    def setPrenomEtudiant(self, prenom):
+    def set_prenom_etudiant(self, prenom):
         self.nom = prenom
     
-    def getPrenomEtudiant(self):
+    def get_prenom_etudiant(self):
         return self.prenom
     
-    def setNiveauEtudiant(self, niveau):
+    def set_niveau_etudiant(self, niveau):
         self.nom = niveau
     
-    def getNiveauEtudiant(self):
+    def get_niveau_etudiant(self):
         return self.niveau
-        

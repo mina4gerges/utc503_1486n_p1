@@ -5,21 +5,20 @@ class Cours:
         self.intitule = intitule
         self.niveau = niveau
         
-    def setCodeCours(self, code):
+    def set_code_cours(self, code):
         self.code = code
     
-    def getCodeCours(self):
+    def get_code_cours(self):
         return self.code
     
-    def setIntituleCours(self, intitule):
+    def set_intitule_cours(self, intitule):
         self.intitule = intitule
     
-    def getIntituleCours(self):
+    def get_intitule_cours(self):
         return self.intitule
 
-    def setNiveauCours(self, niveau):
-        self.nom = niveau
+    def set_niveau_cours(self, niveau):
+        self.niveau = niveau
     
-    def getNiveauCours(self):
+    def get_niveau_cours(self):
         return self.niveau
-        
